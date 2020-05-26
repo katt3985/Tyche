@@ -1,2 +1,2 @@
-# Tyche-public
-Public homepage for the dice rolling bot Tyche
+# Tyche
+Tyche is yet another dice rolling bot
