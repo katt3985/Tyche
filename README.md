@@ -1,8 +1,8 @@
 # Tyche
 Tyche is a bot to roll dice, all results dictated by the Greek goddess of luck.
 
-# invite link
-  use this link to invite the bot to your server
+# Invite link
+  use [this link](https://discordapp.com/oauth2/authorize?&client_id=631862376400158721&permissions=75776&scope=bot) to invite the bot to your server
 
 # Command help
 the default command prefix is `!` anyone can mention (@) the bot to get its current prefix
