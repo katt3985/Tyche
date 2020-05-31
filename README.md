@@ -12,6 +12,8 @@ the default command prefix is `!` anyone can mention (@) the bot to get its curr
  below are the differnt games currently reconized and some examples on how to use them
 
 ### Dungeons and Dragons 5th edition
+  `!roll` : roll a d20 and return the result
+
   `!roll +1` : roll a d20, add 1, and return the result
   
   `!roll +5 for attack` : the "for attack" will be appended to the roll result
@@ -21,7 +23,8 @@ the default command prefix is `!` anyone can mention (@) the bot to get its curr
   `!roll 3d8` : include more than just a modifier and the phrase will be interpreted as a formula
   
 ### Chronicles of Darkness
-  `!roll 3` : roll three 10 sided dice rerolling on a 10 and sum the number of dice that roll >= 8, standar chech in CofD
+  `!roll` : roll a 10 sided dice rerolling on a 10 and sum the number of dice that roll >= 8, standard check in Cof
+  `!roll 3` : roll three 10 sided dice rerolling on a 10 and sum the number of dice that roll >= 8, standard check in CofD
 
   `!roll 5 with rote 9again` : roll 5 dice rerolling on a 9 or 10, and rerolling all failed results once
   
@@ -33,6 +36,14 @@ the default command prefix is `!` anyone can mention (@) the bot to get its curr
   this is always accessable via `!rollf` or `!rf`
   
   `!roll 1d6` : roll 1 die with 6 sides
+  
+  `!roll 4d6d1` : roll 4d6 but drop the lowest 1
+
+  `!roll 4d6k3` : roll 4d6 but keep the top 3
+
+  `!roll 5d10!` : roll 5d10, reroll dice that come up with 10 and include both in the result
+
+  `!roll 5d10!8` : roll 5d10, same as above but reroll on an 8, 9, or 10
   
   `!roll 2d4*2` : roll 2 dice with 4 sides and multiply the result by 2
   
